@@ -1,0 +1,22 @@
+# Python local files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Generated/intermediate output not needed for review
+*.tmp
+*.bak
+~$*.xlsx
+
+# Database and authentication files
+.env
+*.sqlite
+*.db
+
+# Local retail input data (source redistribution rights unverified)
+data/raw/*.csv
+data/processed/*.csv
